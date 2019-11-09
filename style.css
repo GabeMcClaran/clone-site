@@ -35,20 +35,42 @@ height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+z-index: 1;
 }
 
-.bg2 {
+.middle {
 background-color:#f77754;
-height: 75vh;
-width:100%;
-margin-top: 5%;
+/* height: 100%;
+width: 100%; */
+
 }
 
 #jen-vid {
 justify-content: space-evenly;
 }
 
-#Houses {
-  background-color: rgb(119, 78, 78) ;
+.logoarea{
+  background-color: #537d91;
 }
+
+#Houses {
+  background-color: rgb(119, 78, 78);
+  color: #a4d1c8;
+  font-size: 1.25rem;
+  /* sposition: relative; */
+  /* top: 2rem; */
+
+}
+
+.sold{
+
+background-color: #f77754;
+}
+
+/* main .button {
+position: absolute;
+bottom: -2rem;
+
+} */
+
 
