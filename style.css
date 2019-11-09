@@ -65,7 +65,10 @@ justify-content: space-evenly;
 .sold{
 
 background-color: #f77754;
+justify-content: space-evenly;
 }
+
+
 
 /* main .button {
 position: absolute;
