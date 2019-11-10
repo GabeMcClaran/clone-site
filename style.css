@@ -40,11 +40,24 @@ z-index: 1;
 
 .middle {
 background-color:#f77754;
+
 /* height: 100%;
 width: 100%; */
 
 }
+section {
+  position:relative;
+}
 
+.types {
+  position:relative;
+
+}
+
+/* #cbody {
+  position:absolute;
+  bottom:-1rem;
+} */
 #jen-vid {
 justify-content: space-evenly;
 }
@@ -57,10 +70,12 @@ justify-content: space-evenly;
   background-color: rgb(119, 78, 78);
   color: #a4d1c8;
   font-size: 1.25rem;
-  /* sposition: relative; */
+  position: relative;
   /* top: 2rem; */
 
 }
+
+
 
 .sold{
 
@@ -69,11 +84,19 @@ justify-content: space-evenly;
 }
 
 
-
-/* main .button {
+ main button {
 position: absolute;
 bottom: -2rem;
 
-} */
+}
 
+#footer-bar{
+  justify-content: center;
+  width:100%
+}
+
+#footer-icons {
+  justify-content: space-between;
+  width: 100%;
+}
 
