@@ -75,19 +75,20 @@ justify-content: space-evenly;
 
 }
 
-h4 {
-  margin-right: 2rem;
-}
+/* h4 {
+  padding-top: 2rem;
+} */
 
-.sold-sign {
+/* .sold-sign {
   margin-left: 2rem;
-}
+}  */
 
 
 .sold{
 
 background-color: none;
 justify-content: space-evenly;
+margin:0 2rem 0 2rem;
 }
 
 
