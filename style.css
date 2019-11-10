@@ -31,7 +31,6 @@ justify-content: end;
 
 .bg1 {
 background-image: url("https://images.unsplash.com/photo-1465244554671-e501f19a3bb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
-height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -39,7 +38,8 @@ z-index: 1;
 }
 
 .middle {
-background-color:#f77754;
+  background-color: #a4d1c8;
+
 
 /* height: 100%;
 width: 100%; */
@@ -51,7 +51,7 @@ section {
 
 .types {
   position:relative;
-
+  background-color:#f77754;
 }
 
 /* #cbody {
@@ -75,11 +75,18 @@ justify-content: space-evenly;
 
 }
 
+h4 {
+  margin-right: 2rem;
+}
+
+.sold-sign {
+  margin-left: 2rem;
+}
 
 
 .sold{
 
-background-color: #f77754;
+background-color: none;
 justify-content: space-evenly;
 }
 
@@ -98,5 +105,6 @@ bottom: -2rem;
 #footer-icons {
   justify-content: space-between;
   width: 100%;
+  text-align: center;
 }
 
