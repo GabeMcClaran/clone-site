@@ -45,12 +45,10 @@ z-index: 1;
 width: 100%; */
 
 }
-section {
-  position:relative;
-}
+
 
 .types {
-  position:relative;
+ 
   background-color:#f77754;
 }
 
@@ -71,7 +69,8 @@ justify-content: space-evenly;
   color: #a4d1c8;
   font-size: 1.25rem;
   position: relative;
-  /* top: 2rem; */
+  top: 5rem;
+  margin-bottom: 1rem;
 
 }
 
@@ -87,8 +86,12 @@ justify-content: space-evenly;
 .sold{
 
 background-color: none;
-justify-content: space-evenly;
-margin:0 2rem 0 2rem;
+justify-content: space-around;
+margin-left: 4rem;
+margin-right:4rem;
+border-top: 5px solid thistle;
+
+
 }
 
 
