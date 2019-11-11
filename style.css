@@ -16,7 +16,11 @@ justify-content: flex-end;
    
 }
 
-header .card {
+.coleman {
+  box-shadow: 12px 12px 2px 1px rgb(119, 78, 78);
+}
+
+.intro {
   box-shadow: 12px 12px 2px 1px rgb(119, 78, 78);
 }
 
