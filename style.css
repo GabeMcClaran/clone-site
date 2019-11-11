@@ -16,6 +16,16 @@ justify-content: flex-end;
    
 }
 
+.hamburger{
+background-color: rgb(119, 78, 78);
+}
+
+.btn:hover {
+  opacity: 1
+}
+
+
+
 .coleman {
   box-shadow: 12px 12px 2px 1px rgb(119, 78, 78);
 }
@@ -55,10 +65,10 @@ width: 100%; */
  
   background-color:#f77754;
 }
-
-/* #cbody {
-  position:absolute;
-  bottom:-1rem;
+/* 
+#cbody {
+  max-width: 400px;
+  max-height: 400px;
 } */
 #jen-vid {
 justify-content: space-evenly;
