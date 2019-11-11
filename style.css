@@ -2,6 +2,9 @@ body, html {
   height: 100%;
   width: 100%;
 }
+*{
+  outline: 1px solid red;
+}
 
 .collapse {
 justify-content: flex-end;
@@ -103,16 +106,23 @@ background-color: none;
 justify-content: space-around;
 margin-left: 4rem;
 margin-right:4rem;
-border-top: 5px solid thistle;
-
+/* border-top: 5px solid thistle;
+ */
 
 }
-
+.cardspace{
+  height: 15vh;
+  background-color: #a4d1c8;
+  border-bottom: 5px solid thistle;
+  
+}
 
  main button {
-position: absolute;
-bottom: -2rem;
-
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  /* to center buttons */
 }
 
 #footer-bar{
@@ -125,4 +135,6 @@ bottom: -2rem;
   width: 100%;
   text-align: center;
 }
+
+/*  image height to width setting set height to width of parent in regards to image */
 
